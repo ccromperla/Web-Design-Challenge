@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/media_query.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Windiness Plot</title>
+</head>
+
+<body class="background-color">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="temp.html">Max Temperature Plot</a>
+            <a class="dropdown-item" href="humid.html">Humidity Plot</a>
+            <a class="dropdown-item" href="cloudy.html">Cloudiness Plot</a>
+            <a class="dropdown-item" href="wind.html">Windiness Plot</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comp.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <article class="description-content">
+          <h1 class="description-header">Latitude Vs. Wind Speed Plot</h1>
+          <hr class="description-hr">
+          <img src="../Resources/assets\images/Fig4.png" alt="Latitude vs. Wind Speed Plot" title="Latitude vs. Wind Speed Plot"
+          class="plot">
+          <p>This plot represents the latitude of each city and the wind speed in miles per hour. Wind speed is speed
+            wind is traveling on a given day. In this case, there also isn't a suggestion tat latitude affects wind
+            speed.
+            Given that the plot doesn't trend any specific way and the data is spread across all locatons.
+          </p>
+          <p>Wind speeds also tend to be low around 0-10mph. The Northern Hemisphere has some data points that are over
+            25mph
+            which isn't recorded in the Southern Hemisphere. This could be the result of the Northern Hemispere being in
+            Winter.
+          </p>
+        </article>
+      </div>
+
+      <div class="col-md-4">
+        <section id="imageNav-area">
+          <div class="imageNav-content">
+            <h2 class="imageNav-header">Visualizations</h2>
+            <hr class="description-hr">
+
+            <div>
+              <a href="temp.html">
+                <img src="../Resources/assets\images/Fig1.png" height="150" width="250" class="imageNav-photo"
+                  title="Latitude vs. Max Temp Plot" alt="Latitude vs. Temperture Plot">
+              </a>
+
+              <a href="humid.html">
+                <img src="../Resources/assets\images/Fig2.png" height="150" width="250" class="imageNav-photo"
+                  title="Latitude vs. Humidity Plot" alt="Latitude vs. Humidity Plot">
+              </a>
+
+              <a href="cloudy.html">
+                <img src="../Resources/assets\images/Fig3.png" height="150" width="250" class="imageNav-photo"
+                  title="Latitude vs. Cloudiness Plot" alt="Latitude vs. Cloudiness Plot">
+              </a>
+
+              <a href="wind.html">
+                <img src="../Resources/assets\images/Fig4.png" height="150" width="250" class="imageNav-photo"
+                  title="Latitude vs. Wind Speed Plot" alt="Latitude vs. Wind Speed Plot">
+              </a>
+            </div>
+          </div>
+
+        </section>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+/* .image{
+    float:left;
+    width:300px; 
+    margin-right:75px;
+}
+  .image img {
+      display:block;
+      width:300px;
+      height:200px
+}
+
+.blueBackground{
+    background-color: rgb(173, 187, 207);
+}
+
+div.ex{
+    background-color: beige;
+}
+
+.img_table td{
+    padding: 10px;
+}
+
+ul.container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+} */
+
+
+.background-color{
+    background-color:rgb(177, 210, 233);
+}
+
+.description-header{
+    color:rgb(14, 14, 119);
+}
+
+.description-content{
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: aliceblue;
+    margin-top: 50px;;
+}
+
+.description-hr{
+    border-top: 3px double;
+}
+
+img.desc-float{
+    float: left;
+}
+
+img.plot{
+    width: 90%;
+    margin: 15px 30px;
+}
+
+#imageNav-area{
+    margin-top: 50px;
+}
+
+.imageNav-header{
+    color: rgb(14, 14, 119);
+    text-align: center;
+}
+
+.imageNav-content{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    padding: 30px 30px;
+}
+
+.imageNav-photo{
+    margin: 15px;
+    width: 250px;
+    display: block;
+}
+
+.comparison-header{
+    color:rgb(14, 14, 119);
+    text-align:center;
+}
+
+.comparison-img{
+    margin: 5px;
+    margin-left: 50px;
+    float: left;
+    width: 400px;
+}
+
+.datatable {
+    background-color: rgb(189, 221, 201);
+}
+
+.datatable th{
+    text-align: center;
+    background-color: rgb(155, 180, 164);
+}

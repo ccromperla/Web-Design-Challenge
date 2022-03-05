@@ -1,0 +1,24 @@
+@media screen and (min-width:770px){
+    #navlist{
+        visibility: visible;
+    }
+    #smallNav{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:769px){
+    #navlist{
+        visibility: hidden;
+    }
+    #smallNav{
+        visibility: visible;
+    }
+
+    #containerbody{
+        padding: 70px;
+        width: 769px;
+    }
+
+    
+}
