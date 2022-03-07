@@ -1,39 +1,10 @@
-/* .image{
-    float:left;
-    width:300px; 
-    margin-right:75px;
-}
-  .image img {
-      display:block;
-      width:300px;
-      height:200px
-}
-
-.blueBackground{
-    background-color: rgb(173, 187, 207);
-}
-
-div.ex{
-    background-color: beige;
-}
-
-.img_table td{
-    padding: 10px;
-}
-
-ul.container {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-} */
-
-
 .background-color{
     background-color:rgb(177, 210, 233);
 }
 
 .description-header{
     color:rgb(14, 14, 119);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
 
 .description-content{
@@ -63,6 +34,7 @@ img.plot{
 .imageNav-header{
     color: rgb(14, 14, 119);
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .imageNav-content{
@@ -80,6 +52,7 @@ img.plot{
 .comparison-header{
     color:rgb(14, 14, 119);
     text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .comparison-img{
@@ -89,8 +62,14 @@ img.plot{
     width: 400px;
 }
 
+.data-box {
+    box-sizing: content-box;
+    width: max-content;
+}
+
 .datatable {
     background-color: rgb(189, 221, 201);
+    border-collapse: collapse; 
 }
 
 .datatable th{

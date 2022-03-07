@@ -1,24 +1,42 @@
-@media screen and (min-width:770px){
-    #navlist{
-        visibility: visible;
-    }
-    #smallNav{
+@media(min-width: 1299px)
+{
+    .comp-line{
         visibility: hidden;
     }
 }
 
-@media screen and (max-width:769px){
-    #navlist{
-        visibility: hidden;
+@media(max-width: 1300px)
+{
+    .background-color{
+        background-color: rgb(255, 255, 255);
     }
-    #smallNav{
+
+    .comparison-img{
+        margin: 25px 50px;
+        width: 300px;
+    }
+
+    .comp-line{
         visibility: visible;
+        border-top: double;   
     }
 
-    #containerbody{
-        padding: 70px;
-        width: 769px;
+    #imageNav-area{
+        box-sizing: border-box;
+        margin: 50px 50px;
     }
-
     
+    .imageNav-content{
+        box-sizing: content-box;
+        background-color: aliceblue;
+        width: auto;
+        height: auto;
+    }
+    
+    .imageNav-photo{
+        margin: 15px;
+        width: 100%;
+        height: auto;
+
+    }
 }
